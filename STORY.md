@@ -1,4 +1,4 @@
-# Day012 Story — Context Switch Cost Meter
+# Day012 Story — Weighted Option Calculator
 
 ## Why
 毎日使う小さな課題を、1ページで即解決できる形にしたかったため。
@@ -12,11 +12,11 @@
 - Day012専用にテーマをseed固定して再生成時の見た目を安定化
 - productivity用途に寄せた単機能UIで迷いを減らす
 - 出力をそのまま再利用できるテキスト構造
-- Family: switch_cost
-- Mechanic: cost_estimation
-- Input/Output: task_sequence -> cost_report
-- Audience Promise: better_time_planning
-- Publish Hook: 切替ロスを数字で可視化
+- Family: weighted_scoring
+- Mechanic: weighted_formula
+- Input/Output: slider_weights_and_rows -> ranked_scores
+- Audience Promise: transparent_tradeoff
+- Publish Hook: 重みを動かすと順位差分が見える
 - Complexity Tier: medium
 - Selected components: none
 - Complexity hint: Add 2 safe enhancement components from selected_components while keeping the app single-page and stable.
@@ -31,5 +31,5 @@
 - エクスポート形式拡張
 
 ## Social copy
-Day012｜Context Switch Cost Meter
-タスク切替の見えない損失を可視化する生産性分析ツール。（話題:HN Frontpage）
+Day012｜Weighted Option Calculator
+重み付き評価で候補案の順位変化を比較できる計算ツール。（話題:HN Frontpage）
